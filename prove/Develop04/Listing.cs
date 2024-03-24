@@ -1,4 +1,4 @@
-// Actividad de Enumeración
+// Listing Activity
 class ListingActivity : Activity
 {
     private List<string> prompts = new List<string> {
@@ -17,7 +17,7 @@ class ListingActivity : Activity
         string randomPrompt = prompts[random.Next(prompts.Count)];
         Console.WriteLine(randomPrompt);
         Console.WriteLine("You have " + duration + " seconds to think and list as many items as you can.");
-        Thread.Sleep(5000); // Pause for 5 seconds
+        Thread.Sleep(5000); 
 
         Console.WriteLine("Please start listing...");
 
